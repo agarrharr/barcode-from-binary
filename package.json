@@ -1,0 +1,32 @@
+{
+  "name": "barcode-from-binary",
+  "version": "1.0.0",
+  "description": "Returns decimal value of barcode binary",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agarrharr/barcode-from-binary.git"
+  },
+  "keywords": [
+    "barcode",
+    "binary"
+  ],
+  "author": "Adam Harris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agarrharr/barcode-from-binary/issues"
+  },
+  "homepage": "https://github.com/agarrharr/barcode-from-binary#readme",
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "xo": "^0.18.2"
+  },
+  "dependencies": {
+    "barcode-binary-is-valid": "^1.0.2",
+    "barcode-convert-number": "^1.0.0",
+    "barcode-get-binary-sections": "^1.0.0"
+  }
+}
